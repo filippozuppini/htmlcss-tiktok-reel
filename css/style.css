@@ -34,6 +34,25 @@ video {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+
+	color: white;
+	display: flex;
+	padding: 1rem 1rem;
+	font-size: 1.3rem;
+	
+	.nav-btn a{
+		color: rgba(255, 255, 255, 0.5);
+		text-decoration: none;
+		padding: 0 0.5rem;
+		font-weight: 400;
+		font-size: 1rem;
+
+		.active{
+			color: white;
+		}
+	}
+
+	
 }
 
 /* Footer */
