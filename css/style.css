@@ -77,6 +77,49 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+
+	.icons .user img{
+		max-width: 50px;
+		border-radius: 50%;
+		border: 2px solid white;
+		position: relative;
+
+	}
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: white;
+	/* justify-content: space-evenly; */
+	
+	.icon{
+		margin: 1.5rem 0;
+	}
+
+	.icon :first-child{
+		font-size: 1.8rem;
+	}
+
+	.user{
+		display: flex;
+		flex-direction: column;
+
+
+		.add{
+			background-color: rgb(255, 2, 78);
+			border-radius: 1rem ;
+			max-width: 2rem;
+
+			text-align: center;
+			
+
+			position: absolute;
+			/* bottom: 0; */
+			/* left: 50%; */
+			/* transform: translate(-50% -50%)   */
+		}
+	}
 }
 
 /* ---------------------
